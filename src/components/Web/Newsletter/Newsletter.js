@@ -10,6 +10,7 @@ export default function Newsletter() {
   const onSubmit = (e) => {
     e.preventDefault();
     const emailValid =
+      // eslint-disable-next-line no-useless-escape
       /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
     const resultValidation = emailValid.test(email);
 

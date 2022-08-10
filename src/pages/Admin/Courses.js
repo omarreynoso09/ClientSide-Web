@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import CoursesList from "../../components/Admin/Courses/CoursesList";
+import CoursesList from "../../components/Admin/Courses/CoursesList/CoursesList";
 import { getCoursesApi } from "../../api/course";
 
 export default function Courses() {
