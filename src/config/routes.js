@@ -3,11 +3,11 @@ import LayoutAdmin from "../layouts/LayoutAdmin";
 import LayoutBasic from "../layouts/LayoutBasic";
 
 // Admin Pages
-import AdminHome from "../pages/Admin";
+import AdminHome from "../pages/Admin/Admin";
 import AdminSingIn from "../pages/Admin/SignIn";
 import AdminUsers from "../pages/Admin/Users";
 import AdminMenuWeb from "../pages/Admin/MenuWeb/MenuWeb";
-import AdminCourses from "../pages/Courses";
+import AdminCourses from "../pages/Admin/Courses";
 import AdminBlog from "../pages/Blog";
 
 // Pages
@@ -21,12 +21,12 @@ import Error404 from "../pages/Error404";
 
 const routes = [
   {
-    path: "/admin",
+    path: "/Admin",
     component: LayoutAdmin,
     exact: false,
     routes: [
       {
-        path: "/admin",
+        path: "/Admin",
         component: AdminHome,
         exact: true,
       },

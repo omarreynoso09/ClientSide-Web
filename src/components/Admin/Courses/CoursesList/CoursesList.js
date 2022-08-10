@@ -76,7 +76,7 @@ export default function CoursesList(props) {
 
     confirm({
       title: "Delete Course",
-      content: `Are You Sure You Want To Delete This Course ${course.idCourse}?`,
+      content: `Are You Sure You Want To Delete This Courses ${course.idCourse}?`,
       okText: "Delete",
       okType: "danger",
       cancelText: "Cancel",
@@ -109,7 +109,9 @@ export default function CoursesList(props) {
 
       <div className="courses-list__items">
         {listCourses.length === 0 && (
-          <h2 style={{ textAlign: "center", margin: 0 }}>No Courses Created</h2>
+          <h2 style={{ textAlign: "center", margin: 0 }}>
+            No Courses Created!
+          </h2>
         )}
         <DragSortableList items={listCourses} onSort={onSort} type="vertical" />
       </div>
@@ -133,7 +135,7 @@ function Course(props) {
     getCourseDataUdemyApi(course.idCourse).then((response) => {
       if (response.code !== 200) {
         notification["warning"]({
-          message: `Course With Course ID ${course.idCourse} Is Not Found!`,
+          message: `Course ID :  ${course.idCourse} Is Not Found.`,
         });
       }
       setCourseData(response.data);

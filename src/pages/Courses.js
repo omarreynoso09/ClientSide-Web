@@ -29,7 +29,7 @@ export default function Courses() {
   return (
     <>
       <Helmet>
-        <title>Courses | Hansel Reynoso</title>
+        <title>Courses | Hansel Reynoso </title>
         <meta
           name="description"
           content="Course| Web Developer Hansel Reynoso"
@@ -42,7 +42,7 @@ export default function Courses() {
           <PresentationCourses />
           {!courses ? (
             <Spin
-              tip="Cargando cursos"
+              tip="Loading Courses"
               style={{ textAlign: "center", width: "100%", padding: "20px" }}
             />
           ) : (

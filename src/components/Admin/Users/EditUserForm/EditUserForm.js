@@ -11,13 +11,13 @@ import {
   notification,
 } from "antd";
 import { useDropzone } from "react-dropzone";
-import NoAvatar from "../../../assets/img/png/no-avatar.png";
+import NoAvatar from "../../../../assets/img/png/no-avatar.png";
 import {
   updateUserApi,
   uploadAvatarApi,
   getAvatarApi,
-} from "../../../api/user";
-import { getAccessTokenApi } from "../../../api/auth";
+} from "../../../../api/user";
+import { getAccessTokenApi } from "../../../../api/auth";
 
 import "./EditUserForm.scss";
 export default function EditUserForm(props) {

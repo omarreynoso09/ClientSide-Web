@@ -9,8 +9,8 @@ import {
   Col,
   notification,
 } from "antd";
-import { signUpAdminApi } from "../../../api/user";
-import { getAccessTokenApi } from "../../../api/auth";
+import { signUpAdminApi } from "../../../../api/user";
+import { getAccessTokenApi } from "../../../../api/auth";
 
 import "./AddUserForm.scss";
 

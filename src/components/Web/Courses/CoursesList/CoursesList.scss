@@ -14,24 +14,32 @@
     }
 
     .ant-card-meta-title {
-      color: $font-light;
+      color: $primary-color;
       font-weight: bold;
+      font-size: 20px;
     }
 
     .ant-card-meta-description {
-      color: $primary-color-dark;
+      color: white;
+      font-size: 16px;
     }
 
     button {
       width: 100%;
       margin-top: 30px;
-      background-color: $primary-color-light;
+      background-color: $primary-color;
+      border: 2px solid $primary-color;
       color: $font-light;
       border: 0;
-      font-weight: bold;
-      font-size: 15px;
+      font-weight: bolder;
+      font-size: 16px;
       height: 40px;
       text-transform: uppercase;
+    }
+    button:hover {
+      background-color: transparent;
+      border: 1px solid $primary-color;
+      color: $font-light;
     }
 
     &-footer {

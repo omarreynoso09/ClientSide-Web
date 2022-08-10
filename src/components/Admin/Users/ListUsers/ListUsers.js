@@ -8,16 +8,16 @@ import {
   Modal as ModalAntd,
   notification,
 } from "antd";
-import NoAvatar from "../../../assets/img/png/no-avatar.png";
-import Modal from "../../Modal";
-import EditUserForm from "../EditUserForm";
+import NoAvatar from "../../../../assets/img/png/no-avatar.png";
+import Modal from "../../../Modal";
+import EditUserForm from "../EditUserForm/EditUserForm";
 import AddUserForm from "../AddUserForm";
 import {
   getAvatarApi,
   activateUserApi,
   deleteUserApi,
-} from "../../../api/user";
-import { getAccessTokenApi } from "../../../api/auth";
+} from "../../../../api/user";
+import { getAccessTokenApi } from "../../../../api/auth";
 
 import "./ListUsers.scss";
 
