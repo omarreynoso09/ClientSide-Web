@@ -94,7 +94,7 @@ function UsersActive(props) {
   const editUser = (user) => {
     setIsVisibleModal(true);
     setModalTitle(
-      `Editar ${user.name ? user.name : "..."} ${
+      `Edit ${user.name ? user.name : "..."} ${
         user.lastname ? user.lastname : "..."
       }`
     );
