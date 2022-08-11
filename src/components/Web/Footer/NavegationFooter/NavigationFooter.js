@@ -1,6 +1,5 @@
 import React from "react";
 import { Row, Col, Icon } from "antd";
-import { Link } from "react-router-dom";
 
 import "./NavigationFooter.scss";
 
@@ -24,22 +23,22 @@ function RenderListLeft() {
   return (
     <ul>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="book" /> Courses
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="code" /> Side Hustle
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="database" /> Resources
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="right" /> Privacy Policy
         </a>
       </li>
@@ -51,22 +50,22 @@ function RenderListRight() {
   return (
     <ul>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="hdd" /> Resume
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="appstore" /> Themes
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="user" /> Porfolio
         </a>
       </li>
       <li>
-        <a href="#">
+        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
           <Icon type="right" /> Terms
         </a>
       </li>
