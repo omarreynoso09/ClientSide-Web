@@ -37,7 +37,7 @@ function MenuSider(props) {
         <Menu.Item key="/admin/courses">
           <Link to="/admin/courses">
             <Icon type="book" />
-            <span className="nac-text">ApI Courses</span>
+            <span className="nac-text">Udemy API Courses</span>
           </Link>
         </Menu.Item>
         <Menu.Item key="/admin/blog">

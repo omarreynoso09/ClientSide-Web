@@ -1,2 +1,2 @@
-export const basePath = "http://localhost:3977/api";
+export const basePath = process.env.REACT_APP_URL_PATH;
 export const apiVersion = "v1";
