@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Project Title
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Personal Portfolio
 
-## Available Scripts
+# Project Approach
 
-In the project directory, you can run:
+This project will consist of a personal Portfolio, build from the ground up using the MERN STACK
+.
 
-### `npm start`
+## Backend and database
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In the backend, I will create a REST API from scratch connected to MongoDB.
+then incorporate the use of the ODM Mongoose.
+I will create a JWT-protected Auth system and have the AccessToken to allow access and RefreshToken to retrieve sessions. The backend will be executed in Express JS and NODE.jS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend
 
-### `npm test`
+For the client side of this portfolio, I will be using React and SASS. I will create a dynamic React Router Dom configuration as well as a Layout System. created an Administrator panel so that our users with privileges can manage the web. Add a blog system with pagination, that's managed from the admin panel.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## API Section
 
-### `npm run build`
+I will create a course upload section connected to the Udemy Affiliate API.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## SEO
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+A website without SEO is not a website, so I will be implementing basic SEO to the portfolio
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
-### `npm run eject`
+The project will be deployed to the cloud usig MongoDB Atlas For the Database, Heroku for NODE.jS and Express Backend and Netlify for the Front End
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Must Do before you run it
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Install the Allow CORS: Access-Control-Allow-Origin for google chrome here is the link for it https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This is needed in order to view the ( Fetch courses from the API) it will only be temporary until i get an API KEY from UDEMY, once you install the extension just turn it on by clicking the big C
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### This is an ongoing project, I will be adding more features as time goes by.
