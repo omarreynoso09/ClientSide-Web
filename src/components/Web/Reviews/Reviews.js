@@ -1,7 +1,8 @@
 import React from "react";
 import { Row, Col, Card, Avatar } from "antd";
-import AvatarPersona from "../../../assets/img/png/no-avatar.png";
-
+import AvatarPersona from "../../../assets/img/jpg/luis.jpg";
+import AvatarPersona2 from "../../../assets/img/jpg/justin.jpg";
+import AvatarPersona3 from "../../../assets/img/jpg/zahi.jpg";
 import "./Reviews.scss";
 
 export default function Reviews() {
@@ -30,15 +31,15 @@ export default function Reviews() {
               <CardReview
                 name="Justin Cabrera"
                 subtitle="SEO Course"
-                avatar={AvatarPersona}
+                avatar={AvatarPersona2}
                 review="If you like courses that delve into the subject, I recommend it. The teacher fully explains all the concepts necessary to work with a grid. a great course."
               />
             </Col>
             <Col md={8}>
               <CardReview
-                name="Monica Reynoso"
+                name="Zhai Reyes"
                 subtitle="Ecommerce Course"
-                avatar={AvatarPersona}
+                avatar={AvatarPersona3}
                 review="The content of the course is very complete and if you need any additional information, the teacher is super attentive to answer it. I have already created my E-commerce with WordPress and much of the necessary information was obtained from the course."
               />
             </Col>
