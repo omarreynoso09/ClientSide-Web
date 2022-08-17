@@ -23,18 +23,18 @@ function RenderListLeft() {
   return (
     <ul>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
-          <Icon type="book" /> Courses
+        <a href="https://skillcrush.com/blog/64-online-resources-to-learn-to-code-for-free/">
+          <Icon type="book" /> Coding Courses
         </a>
       </li>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
+        <a href="https://sidehustlestack.co/">
           <Icon type="code" /> Side Hustle
         </a>
       </li>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
-          <Icon type="database" /> Resources
+        <a href="http://www.tutorialspoint.com/more.htm">
+          <Icon type="database" /> Coding Resources
         </a>
       </li>
       <li>
@@ -50,17 +50,17 @@ function RenderListRight() {
   return (
     <ul>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
+        <a href="http://hanselreynoso.com/">
           <Icon type="hdd" /> Resume
         </a>
       </li>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
+        <a href="https://highstandardsweb.com/portfolio/">
           <Icon type="appstore" /> Themes
         </a>
       </li>
       <li>
-        <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjX-_nrur_5AhU1pIkEHTSCAvUQPAgI">
+        <a href="https://highstandardsweb.com/portfolio/">
           <Icon type="user" /> Porfolio
         </a>
       </li>
